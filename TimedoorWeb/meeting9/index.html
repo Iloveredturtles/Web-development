@@ -1,130 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+DE+Grund:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
     <style>
-        .center {
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
-        .font {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            color: whitesmoke;
-        }
-        table,tr,td,th {
-            border: 3px solid;
-            border-collapse: collapse;
-            padding: 5px;
-        }
-        th{
-            background-color: rgba(0, 0, 0, 0.614);
-        }
-        tr:nth-child(odd){
-            background-color: rgba(0, 0, 0, 0.096);
-        }
-        tr:hover{
-            background-color: rgba(255, 255, 255, 0.753);
-        }
-        img {
-            border: 5px solid rgb(53, 52, 52);
-            box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.338);
-        }
-        .bg {
-            background-image: url("garage.png");
-            background-size: 50%;
-
-        }
-
+      .center {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      .font {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        color: whitesmoke;
+      }
+      .font2 {
+        font-family:  "Bebas Neue", sans-serif;
+        color: white;
+      }
+      table,
+      tr,
+      td,
+      th {
+        border: 3px solid;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      th {
+        background-color: rgba(0, 0, 0, 0.614);
+      }
+      tr:nth-child(odd) {
+        background-color: rgba(0, 0, 0, 0.096);
+      }
+      tr:hover {
+        background-color: rgba(255, 255, 255, 0.753);
+      }
+      img {
+        border: 5px solid rgb(53, 52, 52);
+        box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.338);
+      }
+      .bg {
+        background-image: url("garage.png");
+        background-size: 50%;
+      }
     </style>
-</head>
-<body class="bg">
-    <div style="text-align: center;">
-        <h1 style="box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.694);background-color: grey;color: black;">Clothing Store</h1>
-        <h4 style="text-transform: uppercase;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: white;">We Only Sell The Best Clothing Made!</h4>
-        <hr>
-        <h4 style="text-shadow: 1px 1px 10px rgb(255, 0, 0);color: white;font-family: Verdana, Geneva, Tahoma, sans-serif;">Best Selling!!</h4>
-        <img src="hoodie.png" alt="" width="300px">
-        <p><i>Lorem ipsum dolor, sit</i> </p>
-        <hr>
-        <h2 style="font-family: fantasy; color: white;">Our Hoodies</h2>
+  </head>
+  <body class="bg">
+    <div style="text-align: center">
+      <h1
+        style="
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.694);
+          background-color: grey;
+          color: black;
+        "
+      >
+        Clothing Store
+      </h1>
+      <h4
+       class="font2"
+      >
+        We Only Sell The Best Clothing Made!
+      </h4>
+      <hr />
+      <h4
+        style="
+          text-shadow: 1px 1px 10px rgb(255, 0, 0);
+          color: white;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        "
+      >
+        Best Selling!!
+      </h4>
+      <img src="hoodie.png" alt="" width="300px" />
+      <p><i>Lorem ipsum dolor, sit</i></p>
+      <hr />
+      <h2 class="font2">Our Hoodies</h2>
 
-        <div class="center">
-            <div>
-              <img src="diesel.png" alt="" width="300px" height="380px">
-              <h2 class="font">DIESEL</h2>
-              <p style="color: white;">black hoodie</p>
-              <h4 style="color: rgb(0, 255, 60); font-family: cursive;">IDR </h4>
-              
-            </div>
-            <div>
-              <img src="stussy.png" alt="" width="300px">
-              <h2 class="font">STUSSY</h2>
-              <p style="color: white;">black basic hoodie</p>
-              <h4 style="color: rgb(0, 255, 60); font-family: cursive;">IDR </h4>
-            </div>
+      <div class="center">
+        <div>
+          <img src="diesel.png" alt="" width="300px" height="380px" />
+          <h2 class="font">DIESEL</h2>
+          <p style="color: white">black hoodie</p>
+          <h4 style="color: rgb(0, 255, 60); font-family: cursive">IDR</h4>
         </div>
-        <div class="center">    
-            <div>
-                <img src="gap.png" alt=""width="300px" height="300px">
-                <h2 class="font">GAP</h2>
-                <p style="color: white;">grey hoodie</p>
-                <h4 style="color: rgb(0, 255, 60); font-family: cursive;">IDR </h4>
-            </div>
-            <div>
-                <img src="cdg.png" alt="" width="300px" height="300px">
-                <h2 class="font">Comme Des Garcons</h2>
-                <p style="color: white;">black women hoodie</p>
-                <h4 style="color: rgb(0, 255, 60); font-family: cursive;">IDR </h4>
-            </div>
-        
+        <div>
+          <img src="stussy.png" alt="" width="300px" />
+          <h2 class="font">STUSSY</h2>
+          <p style="color: white">black basic hoodie</p>
+          <h4 style="color: rgb(0, 255, 60); font-family: cursive">IDR</h4>
         </div>
-           <hr>
-           <h2 style="font-family: fantasy; color: white;">Available Now</h2>
-           <div class="center">
-            <table>
-               <section>
-                <tr>
-                    <th>Brand</th>
-                    <th>Model</th>
-                    <th>Color</th>
-                    <th>Product</th>
-                </tr>
-              </section> 
-              <section>
-                <tr>
-                    <td>sp5der</td>
-                    <td>Hoodie</td>
-                    <td>Grey</td>
-                    <td><img width="250px" src="hoodie.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td>GAP</td>
-                    <td>Zipper Hoodie</td>
-                    <td>Dark Grey</td>
-                    <td><img width="250px" height="250px" src="gap.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td>STUSSY</td>
-                    <td>Hoodie</td>
-                    <td>Black</td>
-                    <td><img width="250px" src="stussy.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td>Comme Des Garcons</td>
-                    <td>Hoodie</td>
-                    <td>Black</td>
-                    <td><img width="250px" src="cdg.png" alt=""></td>
-                </tr>
-               </section> 
-            </table>
-           </div>
+      </div>
+      <div class="center">
+        <div>
+          <img src="gap.png" alt="" width="300px" height="300px" />
+          <h2 class="font">GAP</h2>
+          <p style="color: white">grey hoodie</p>
+          <h4 style="color: rgb(0, 255, 60); font-family: cursive">IDR</h4>
+        </div>
+        <div>
+          <img src="cdg.png" alt="" width="300px" height="300px" />
+          <h2 class="font">Comme Des Garcons</h2>
+          <p style="color: white">black women hoodie</p>
+          <h4 style="color: rgb(0, 255, 60); font-family: cursive">IDR</h4>
+        </div>
+      </div>
+      <hr />
+      <h2 class="font2">Available Now</h2>
+      <div class="center">
+        <table>
+          <section>
+            <tr>
+              <th>Brand</th>
+              <th>Model</th>
+              <th>Color</th>
+              <th>Product</th>
+            </tr>
+          </section>
+          <section>
+            <tr>
+              <td>sp5der</td>
+              <td>Hoodie</td>
+              <td>Grey</td>
+              <td><img width="250px" src="hoodie.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td>GAP</td>
+              <td>Zipper Hoodie</td>
+              <td>Dark Grey</td>
+              <td><img width="250px" height="250px" src="gap.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td>STUSSY</td>
+              <td>Hoodie</td>
+              <td>Black</td>
+              <td><img width="250px" src="stussy.png" alt="" /></td>
+            </tr>
+            <tr>
+              <td>Comme Des Garcons</td>
+              <td>Hoodie</td>
+              <td>Black</td>
+              <td><img width="250px" src="cdg.png" alt="" /></td>
+            </tr>
+          </section>
+        </table>
+      </div>
 
-        <hr>
-        <h1 style="font-family: fantasy; color: white;">THANK YOU</h1>
-        
+      <hr />
+      <h1 class="font2">THANK YOU</h1>
     </div>
-</body>
+  </body>
 </html>
