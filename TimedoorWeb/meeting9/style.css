@@ -42,8 +42,7 @@ img {
 header {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.694);
   background-color: grey;
-  color: black;
-  text-align: center;
+  display: flex;
 }
 
 .info-left {
@@ -81,4 +80,22 @@ header {
 
 footer{
     background-color: grey;
+}
+nav{
+  width: 300px;
+  margin-left: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+a{
+  float: left;
+  display: block;
+  background-color: grey;
+  color: rgba(0, 0, 0, 0.587);
+  padding: 4px;
+  font-size: 20px;
+}
+
+a:hover{
+  background-color: rgba(221, 221, 227, 0.285);
 }

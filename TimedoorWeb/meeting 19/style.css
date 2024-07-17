@@ -1,0 +1,53 @@
+.static{
+    position: static;
+    border: 2px solid red;
+}
+.relative{
+    position: relative;
+    border: 2px solid rgb(21, 0, 255);
+    top: 50px;
+    left: 500px;
+    display: inline;
+
+}
+.absolute{
+    position: absolute;
+    border: 2px solid orange;
+    top: 800px;
+}   
+.fixed{
+    position: fixed;
+    border: 2px solid green;
+    left: 450px;
+    top: 200px;
+}
+.sticky{
+    position: sticky;
+    border: 2px solid rgb(179, 255, 0);
+    display: inline;
+    left: 250px;
+}
+nav{
+    width: 200px;
+    margin-top: 50px;
+}
+a{
+    display: block;
+    background-color: rgb(173, 161, 161);
+    color: black;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+.a{
+    display: block;
+    background-color: rgb(173, 161, 161);
+    color: black;
+    padding: 4px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+}
+a:hover{
+    background-color: rgba(0, 0, 255, 0.285);
+}
