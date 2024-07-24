@@ -41,6 +41,7 @@ img {
 
 header {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.694);
+  border: 2px solid black;
   background-color: grey;
   display: flex;
 }
@@ -98,4 +99,20 @@ a{
 
 a:hover{
   background-color: rgba(221, 221, 227, 0.285);
+}
+
+.pricing {
+  background-color: whitesmoke; 
+  border: 5px solid black; 
+  border-radius: 20px;
+  width: 200px;
+}
+li{
+  list-style: none;
+  text-align: left;
+}
+.about{
+  background-color: grey;
+  border: 2px solid black;
+  
 }
