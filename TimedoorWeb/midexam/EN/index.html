@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance 2 Middle Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+  margin: 5% 0 0 0;
+  padding: 0;
+}
+
+/* create style for Header */
+a{
+  text-decoration: none;
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position: absolute;
+  top: 100%;
+  background-color: rgba(0, 0, 0, 0.071);
+}
+
+.dropdown-item:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+a.dropdown-item {
+  min-width: 160px;
+  text-align: left;
+}
+
+li.dropdown-item:hover a.dropdown-item {
+  text-align: left;
+  color: gainsboro;
+}
+
+h3.price {
+  text-align: center;
+  font-size: 30px;
+}
+
+.list li {
+  list-style-type: disc;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  background-color: white;
+  width: 250px;
+  min-height: 500px;
+  padding: 60px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+.home {
+  display: block;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 30px;
+}
+
+h1.name {
+  font-size: 27px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: black;
+  text-align: center;
+}
+
+h2.price {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+div.about {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background-color: rgba(204, 198, 198, 0.568);
+  width: 80%;
+}
+
+.about {
+  text-align: left;
+  color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+img.about-us {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+div.image-about {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+/* create style for button  */
+
+/* create style for footer */
+
+    </style>
+    <script
+      src="https://kit.fontawesome.com/f90068558c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header style="display: flex;">
+      <!-- Add heading 1 and navigation bar including dropdown -->
+       <h1 style="margin-top: 0px;">Timedoor Coding Academy</h1>
+       <nav style="display:flex; font-size: 20px; text-align: right; margin-left: auto;">
+          <a href="#home">Home</a>
+          <div class="dropdown">
+            <div>
+               <a href="#class">Our Class</a>
+            </div>
+         
+            <div class="dropdown-content">
+               <ul>
+                <li class="dropdown-item"><a class="dropdown-item" href="">Submenu1</a></li>
+                <li class="dropdown-item"><a class="dropdown-item" href="">Submenu2</a></li>
+               </ul>
+            </div>
+          </div>
+          <a href="#about">About Us</a>
+
+       </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="home">
+          <h1>Timedoor Coding Academy</h1>
+          <h3>Fun Way to Code The Future</h3>
+          <img
+            src="../assets/home-timedoor.png"
+            alt="Timedoor"
+            width="40%"
+            height="auto"
+          />
+        </div>
+      </section>
+      <section id="pricing-table">
+        <h3 class="price">Penawaran</h3>
+        <div class="container">
+          <div class="tab">
+            <div class="tab-header">
+              <div>
+                <h1 class="name">SD</h1>
+              </div>
+              <div>
+                <h2 class="price">
+                  Rp 300.000 - Rp 600.000 <br />
+                  (per 8 Pertemuan)
+                </h2>
+              </div>
+            </div>
+            <hr />
+            <ul class="list">
+              <li>Level Beginner</li>
+              <li>Level Intermediate</li>
+              <li>Level Advance (Game Developer)</li>
+              <li>Level Junior Web Developer</li>
+              <li>Level Junior App Developer</li>
+              <li>Digital Literacy</li>
+              <li>Class Kit</li>
+            </ul>
+            <!-- add button -->
+          </div>
+          <div class="tab">
+            <div class="tab-header">
+              <div>
+                <h1 class="name">SMP-SMA</h1>
+              </div>
+              <div>
+                <h2 class="price">
+                  Rp 300.000 - Rp 600.000 <br />
+                  (per 8 Pertemuan)
+                </h2>
+              </div>
+            </div>
+            <hr />
+            <ul class="list">
+              <li>Level Beginner</li>
+              <li>Level Intermediate (Game Developer)</li>
+              <li>Level Advance (Web Developer)</li>
+              <li>Level App Developer</li>
+              <li>Digital Literacy</li>
+              <li>Class Kit</li>
+            </ul>
+            <!-- add button -->
+          </div>
+          <div class="tab">
+            <div class="tab-header">
+              <div>
+                <h1 class="name">Adult</h1>
+              </div>
+              <div>
+                <h2 class="price">Rp 300.000 - Rp 600.000 (per Level)</h2>
+              </div>
+            </div>
+            <hr />
+            <ul class="list">
+              <li>Web Development</li>
+              <li>App Development</li>
+              <li>Machine Learning</li>
+              <li>Digital Literacy</li>
+              <li>Financial Literacy</li>
+            </ul>
+            <!-- add button -->
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about">
+          <div>
+            <h2 class="about">About Us</h2>
+            <p class="about">
+              Impian Timedoor Coding Academy adalah masyarakat Indonesia dapat
+              menjadi inovator teknologi yang memberi pengaruh positif di masa
+              mendatang. Didukung dengan kurikulum bidang edukasi karakter dan
+              literasi digital, murid Timedoor Coding Academy diharapkan mampu
+              menyebarkan pengaruh positif secara berkelanjutan di kalangan
+              masyarakat kita. <br />
+              Dengan kata lain, murid Timedoor Coding Academy tidak hanya
+              sebatas mampu menciptakan teknologi, tetapi mereka juga mampu
+              menciptakan kehidupan masyarakat yang lebih baik.
+              <br />
+              <br />
+
+              Timedoor Coding Academy
+            </p>
+          </div>
+          <div class="image-about">
+            <img
+              src="assets/about.png"
+              alt="About Us"
+              width="450px"
+              height="auto"
+              class="about-us"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- add footer  -->
+    </footer>
+  </body>
+</html>
