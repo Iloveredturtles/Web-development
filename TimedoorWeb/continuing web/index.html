@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <article id="video">
+        <div class="item-video">
+          <h3 class="article-title">What is Coding?</h3>
+          <!-- tambahkan video youtube 1 disini -->
+           <iframe width="500" height="350" src="https://www.youtube.com/embed/XMZFUnAgOqs?si=OEkETyg_rFXr6ZOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
+           <div class="toggle">
+            <button class="btn" id="green">
+              <i class="fa fa-thumbs-up fa-lg"></i>
+            </button>
+            <button class="btn" id="red">
+              <i class="fa fa-thumbs-down fa-lg"></i>
+            </button>
+         </div>   
+
+          <h3 class="article-title">Coding is Not 
+          Difficult!</h3>
+          <!-- tambahkan video youtube 2 disini -->
+           <iframe width="500" height="350" src="https://www.youtube.com/embed/hb7Q33ysCwI" frameborder="0"></iframe>
+        </div>
+     </article>
+    <div class="toggle">
+        <button class="btn" id="green">
+          <i class="fa fa-thumbs-up fa-lg"></i>
+        </button>
+        <button class="btn" id="red">
+          <i class="fa fa-thumbs-down fa-lg"></i>
+        </button>
+     </div>
+     <aside>
+      <div class="search-tags-container">
+        <div class="input-tag">
+        <h3 class="aside-title">Search Here</h3>
+        <input id="myInput" type=”text”
+        placeholder=”Search...”>
+        <span class="addBtn" onclick="newElement()">
+        Search</span>
+        </div>
+        <ul id="myUL" class="search-tags-list">
+        <li class="search-tags-item">HTML</li>
+        <li class="search-tags-item">Code</li>
+        </ul>
+        </div>
+     </aside>
+    
+     <img onmouseover="changeImage(this)"onmouseout="changeImageBack(this)"
+class="jumbotron-img" src="header.png" alt="Jumbotron Image" width="700" height="300">
+
+<article id="my-project"> 
+  <h3 class="article-title">My Project</h3>
+  <div class="project-container">
+     <div class="project">
+       <img src="assets/desert-rally.png" alt="" width="300px" height="210px">
+       <h4 class="project-title">Project 1</h4>
+       <p class="project-description">project 1</p>
+     </div>
+     <div class="project">
+       <img src="assets/memory-game.png" alt="" width="300px" height="210px">
+       <h4 class="project-title">Project 2</h4>
+       <p class="project-description">Project 2</p>
+     </div>
+  </div>
+</article>
+</body>
+<script src="script.js"></script>
+</html>

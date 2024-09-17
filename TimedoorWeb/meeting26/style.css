@@ -1,0 +1,111 @@
+/* .main-content {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 20px;
+}
+
+aside {
+    max-width: 18%;
+    max-height: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px gainsboro;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.aside-title {
+    margin-top: 50px;
+    font-size: 25px;
+    border-top: 5px solid rgb(38, 70, 83);
+    border-radius: 5px;
+}
+
+.profile-picture {
+    border-style: solid;
+    border-radius: 50%;
+    padding: 3px;
+    box-shadow: 0 0 40px gainsboro;
+}
+ */
+
+ .main-content {
+    display: flex;
+    justify-content: flex-start;
+  }
+  aside {
+    width: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgb(44, 216, 205);
+    text-align: center;
+    padding: 10px;
+  }
+  .fa-user-circle {
+    font-size: 40px;
+  }
+  /* .content {
+    padding: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px gainsboro;
+  } */
+  
+  .content {
+    margin-left: 10%;
+    max-width: 65%;
+  }
+  article {
+    max-width: 100%;
+  }
+  .article-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0 30px;
+  }
+  .maps {
+    padding: 10px;
+  }
+  iframe {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 40px rgb(169, 114, 114);
+  }
+  footer {
+    background-color: rgb(161, 178, 184);
+  }
+  .center-footer {
+    margin: 0 20px;
+  }
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .info-top {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    color: rgb(14, 227, 234);
+  }
+  .info-center {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid rgb(32, 30, 30);
+    color: rgb(21, 168, 173);
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  .fa-instagram-square,
+  .fa-twitter-square,
+  .fa-facebook-square,
+  .fa-envelope {
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(159, 70, 70);
+  }
+  

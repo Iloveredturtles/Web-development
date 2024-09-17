@@ -1,0 +1,8 @@
+.headericon {
+    width: 40px;
+}
+
+.header{
+    display: flex;
+    margin: 8px;
+}

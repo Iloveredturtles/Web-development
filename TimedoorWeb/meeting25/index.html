@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="hello-world">Hi World!<p>
+        <p class="apps"> I am a Mobile Apps Developer</p>
+        <p></p>
+        <h2></h2>
+        <ul id="language">
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Kotlin</li>
+      </ul>
+
+
+       
+</body>  <script>
+           document.getElementById("hello-world").innerHTML = "Hello World !"
+           var result = document.getElementsByTagName("p")[1].innerHTML ="asd"
+           var result = document.getElementsByClassName("apps")[0].innerHTML ="give"
+           console.log(result)
+           document.getElementsByTagName("p")[3].innerHTML = "Hello Programmer !";
+           var result = document.getElementsByTagName("p")[0].className = "blue";
+           var result = document.getElementsByTagName("h2")[0].innerHTML ="Hello Programmer!"
+           var result = document.getElementsByTagName("h2")[0].className = "red";
+           var paragraph = document.createElement("P");
+           paragraph.innerHTML = "New Paragraph";
+//menambahkan pada body
+           document.body.appendChild(paragraph); 
+           //setAttribute(class="blue")
+           var list = document.getElementById("language");
+           list.removeChild(list.childNodes[5]);             
+
+        </script>
+</html>

@@ -1,0 +1,14 @@
+input {
+    margin: 0 15px 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid cadetblue;
+    width: 450px;
+    }
+    
+.submit {
+    border-radius: 5px;
+    padding: 6px;
+    width: 100px;
+    background-color: cadetblue;
+    }

@@ -6,12 +6,17 @@ body {
 /* create style for Header */
 a{
   text-decoration: none;
-  margin: 10px;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+nav{
+  position: absolute;
+  display: flex;
+  right: 0;
 }
 
 .dropdown {
@@ -123,6 +128,52 @@ div.image-about {
   margin-top: auto;
 }
 
+
 /* create style for button  */
 
 /* create style for footer */
+.info-left {
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-right: auto; 
+  margin-left:30px;
+  margin-top: 50px;
+}
+
+.info-right {
+  color: rgb(255, 255, 255);
+  text-align: right;
+  margin-left: auto;
+  margin-top: 0;
+  margin-right: 30px;
+  
+}
+
+.info-center {
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
+.main-footer { 
+  display: flex;
+  justify-content: center;
+
+}
+
+footer{
+  background-color: rgb(82, 118, 65);
+  
+}
+
+button{
+  background-color: greenyellow;
+  border-radius: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.696);
+  margin-bottom: 10px;
+}
