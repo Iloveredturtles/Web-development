@@ -1,0 +1,13 @@
+.wave1 {
+    position: absolute;
+    top: 410px;
+    z-index: 2;
+  }
+
+  .wave2 {
+    position: absolute;
+    top: 450px;
+    z-index: 3;
+  }
+
+  

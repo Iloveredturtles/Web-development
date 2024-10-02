@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='form'>
+        <h3 class='title'>Coding Competition <br>
+        Enrollment 2021</h3>
+        <form action='result.html' target='blank'
+        method='POST' autocomplete='on' >
+        <label for='Favorite Level'>Competition Category</label><br>
+<select name='level' id='level'>
+<option value='beginner'>Kids (8-10 y)</option>
+<option value='intermediate'>Teens (11-13 y)</option>
+<option value='advanced'>High School (14-16 y)</option>
+<option value="adult">Adult (17-21 y)</option>
+</select> <br>
+        <label for='name'>Name</label>
+        <input type='text' id='name' name='name' placeholder="Your Name" required>
+        <label for='email'>Email</label>
+        <input type='email' id='email' name='email' placeholder="Email" required>
+        <label for='address'>Address</label>
+        <textarea id='address' name='address'
+        cols='30' row='10' placeholder="Address" required></textarea>
+        <label for='phone'>Phone</label>
+        <input type='text' id='phone'
+        name='phone' placeholder="no . phone" required>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder='Password' required>
+        <label for="Age">Age</label>
+        <input type="number" name="Age" min="8" max="16" placeholder="Age" required>
+        <label for='date'>Date</label>
+        <input id='date' type='date' name='date' required>
+        <label for="gender">Gender</label> <br>
+        <input class="check" id='radio' type='radio' name='radio'
+        value='Female'> <label for='radio'>Female</label>
+        <input class="check" id='radio' type='radio' name='radio' value='Male>'> 
+        <label for="radio">Male</label> <br>
+        <label for='Document'>Document</label> <br>
+        <input class="check" id='checkbox' type='checkbox' name='checkbox1' value='Student Card'>
+        <label for='checkbox'>Student Card</label> <br>
+        <input class="check" id='checkbox' type='checkbox' name='checkbox2' value='Biodata'>
+        <label for='checkbox'>Biodata</label> <br>
+        <input class="check" id='checkbox' type='checkbox' name='checkbox3' value='Contact Form'>
+        <label for='checkbox'>Contact</label> <br>
+        <label for='file'>Upload File</label> <br>
+        <input id='file' type='file' name='file' required>
+        <input type='submit' value='submit'
+        class='submit-btn'>
+        </form>
+        </div>
+    
+</body>
+</html>
