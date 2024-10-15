@@ -73,3 +73,5 @@ function newElement() {
 
 }
 
+AOS.init();
+
